@@ -77,7 +77,6 @@ body > * {
 body > header {
     grid-area: head;
     
-    
 }
 body > nav {
     grid-area: nav;
@@ -122,3 +121,32 @@ body#portfolio ul#portfolioItems li img {
     max-width: 100%;
 
 }
+
+@media screen and (min-width: 1150px) {
+
+.clock {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-25%) translateY(-25%);
+    color: #800000;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 7px;
+    -webkit-transition: 0.5s;
+   
+   
+   
+   }
+.clock:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+
+
+
+}
+
